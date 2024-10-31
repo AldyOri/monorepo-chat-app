@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Go backend for my project",
+  "scripts": {
+    "start": "go run main.go",
+    "dev": "air",
+    "build": "go build main.go",
+    "lint": "golangci-lint run",
+    "clean": "go clean"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
